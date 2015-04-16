@@ -1,5 +1,6 @@
 class PrimeTester
 
+  # from http://en.wikipedia.org/wiki/Primality_test#Ruby_implementation
   def isPrime(n)
     return n > 1 if n <=3
     return false if n % 2 == 0 || n % 3 == 0

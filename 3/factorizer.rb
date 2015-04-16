@@ -83,8 +83,10 @@ if __FILE__ == $0
 
   puts "The prime factors of #{value} are #{factors.sort}"
 
+  factorIt(enfactorate, 68, [2, 2, 17])
   factorIt(enfactorate, 102, [2,3,17])
   factorIt(enfactorate, 147, [3,7,7])
   factorIt(enfactorate, 13195, [5,7,13,29])
+  factorIt(enfactorate, 600851475143, [71, 839, 1471, 6857])
 
 end
